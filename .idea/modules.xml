@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ahmadullah.iml" filepath="$PROJECT_DIR$/.idea/modules/ahmadullah.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ahmadullah.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.iml" filepath="$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/notifier/ahmadullah.notifier.unitTest.iml" />
+    </modules>
+  </component>
+</project>
