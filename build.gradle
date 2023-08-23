@@ -9,7 +9,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'com.android.tools.build:gradle:8.1.1'
     }
 }
 
@@ -23,19 +23,4 @@ allprojects {
 
 tasks.register('clean', Delete) {
     delete rootProject.buildDir
-}
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId = 'org.company'
-            artifactId = 'sample'
-            version = "1.4"
-            from components.java
-
-            pom {
-                description = 'A description of my library'
-                ...
-            }
-        }
-    }
 }
