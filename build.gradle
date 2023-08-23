@@ -24,3 +24,18 @@ allprojects {
 tasks.register('clean', Delete) {
     delete rootProject.buildDir
 }
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'org.company'
+            artifactId = 'sample'
+            version = "1.4"
+            from components.java
+
+            pom {
+                description = 'A description of my library'
+                ...
+            }
+        }
+    }
+}
