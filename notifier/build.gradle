@@ -6,7 +6,12 @@ plugins {
 android {
     namespace 'bn.tazkir.notifier'
     compileSdk 33
-
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
     defaultConfig {
         minSdk 14
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -33,7 +38,8 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            productionRelease(MavenPublication) {
+            release(MavenPublication) {
+                components.getByName('release')
                 groupId = 'com.github.ikramuldu'
                 artifactId = 'notifiew'
                 version = 1.1
