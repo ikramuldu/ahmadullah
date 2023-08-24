@@ -36,11 +36,12 @@ dependencies {
 
 afterEvaluate {
     publishing {
-        publications {release(MavenPublication) {
-            components.getByName('release')
+        publications {
+            release(MavenPublication) {
+                from components.release
                 groupId = 'com.github.ikramuldu'
                 artifactId = 'ahmadullah'
-                version = 1.7
+                version = 1.8
             }
         }
     }
